@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cormorant+Garamond:wght@700&family=Roboto:wght@300&family=Source+Serif+Pro:wght@900&display=swap');
+
+
+body{
+    background-color: #FFE4B5;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    /* overflow: hidden; */
+
+}
+.page{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    background: #d79e42;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin: none;
+    border: none;
+    height: 90px;
+
+}
+main{
+    max-height: 100vh;
+}
+.buttons{
+    width: 100px;
+    padding: 30px 0 20px 10px;
+    display: flex;
+    
+    
+}
+.buttonWork input{
+    margin: 10px;
+    border: none;
+    padding: 10px 10px 30px 10px;
+    background-color: #d79e42;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    font-family: inherit; 
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: -20px;
+    cursor: pointer;
+    transition: border 0.1s; 
+}
+
+.buttonMe input{
+    margin: 10px;
+    border: none;
+    padding: 10px 10px 30px 10px;
+    background-color: #d79e42;
+    width: 200px;
+    border-radius: 30px;
+    height: 50px;
+    display: inline-block; 
+    font-family: inherit;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    left: 80px;  
+    top: -20px;
+    cursor: pointer;
+    transition: border 0.1s; 
+}
+   
+.buttonLink input{
+    margin: 10px;
+    border: none;
+    padding: 10px 10px 30px 10px;
+    background-color: #d79e42;
+    width: 200px;
+    border-radius: 30px;
+    height: 50px;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    left: 170px;
+    top: -20px;
+    cursor: pointer;
+    transition: border 0.1s; 
+
+}
+.buttonWork input:hover{
+    border: 2px solid rebeccapurple;
+}
+.buttonMe input:hover{
+    border: 2px solid rebeccapurple;
+}
+.buttonLink input:hover{
+    border: 2px solid rebeccapurple;
+}
+.media{
+    width: 200px;
+    margin: 30px;
+    size: 100px;
+    border: none;
+    position: absolute;
+    top: -20px;
+    right: 0px;
+}
+
+[name="vk"]{
+    color: rebeccapurple;
+    transition: color 0.3s;
+}
+[name="tg"]{
+    color: rebeccapurple;
+    transition: color 0.3s;
+}
+[name="inst"]{
+    color: rebeccapurple;
+    transition: color 0.3s;
+}
+
+
+[name="vk"]:hover{
+    color:aliceblue;
+}
+[name="tg"]:hover{
+    color: aliceblue;
+}
+[name="inst"]:hover{
+    color: aliceblue;
+}
+.logo{
+width: 600px;
+/* max-width: 1300px; */
+margin: 20px;
+justify-self: left;
+overflow: hidden;
+margin: 40px 20px 30px 25px;
+background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+box-shadow: 2px 5px 10px rgba(0, 0, 0, 1);
+padding: 20px;
+border-radius: 30px;
+animation: logoAnim 5s infinite alternate
+}
+
+@keyframes logoAnim{
+    0%{
+        border-radius: 92% 8% 94% 6% / 8% 84% 16% 92% ;
+    }
+    25%{
+        border-radius: 49% 51% 59% 41% / 44% 37% 63% 56% ;
+    }
+    50%{
+        border-radius: 30% 70% 13% 87% / 19% 64% 36% 81%;
+    }
+    75%{
+        border-radius: 83% 17% 59% 41% / 56% 69% 31% 44% ;
+    }
+    100%{
+        border-radius: 22% 78% 30% 70% / 58% 46% 54% 42% ;
+    }
+}
+
+
+.textMain{
+    min-height: 100vh;
+    display: grid;
+    justify-content: right;
+    width: 600px;
+
+    padding: 0;
+    margin: 0 0 0 25px;
+
+    position: relative;
+    top: -450px;
+    left: 700px;
+    font-size: 28px;
+    
+}
+.textMain h1{
+    margin: 10px 10px 0 0;
+
+    padding: 10px 0 15px 10px;
+    
+}
+.textMain h3{
+    font-size: 24px;
+    margin: 10px 10px 0 0;
+    /* border: 3px solid green; */
+    padding: 10px 0 15px 10px;
+}
+.logo-text{
+    border: 3px solid green;
+    /* border-radius: 25px; */
+    margin: none;
+    padding: none;
+    height: 200px;
+}
+
+.textStuff{
+    position: relative;
+    top: -75px;
+    border: 2px solid #d79e42;
+    /* border-radius: 25px; */
+    height: 250px;
+    margin: 10px 10px 10px 10px;
+}
+.textStuff ul{
+    margin: 0;
+    padding: 0;
+}
+
+.textStuff li{
+    list-style-type: circle;
+    margin: 0px 0px 0px 30px;
+    padding-left: 5px;
+    height: 30px;
+    width: 500px;
+
+}
+.me{
+    width: 80%;
+    margin: 0px 40px 0px 60px;
+    padding: 20px 20px 20px 0px;
+}
+.me h1{
+    text-align: center;
+    font-family: inherit;
+    font-size: 28px; 
+}
+.me p{
+    text-align: justify;
+    text-indent: 35px;
+    font-size: 17px;
+    font-weight: 600;
+}
+[name="galary-text"]{
+    text-align: center;
+    font-family: inherit;
+    font-size: 26px; 
+}
+.photos{
+    display: flex;
+    width: 80%;
+}
+.phot{
+    display:inline-block;
+    width: 600px;
+    margin: 30px;
+    box-shadow: 2px 5px 10px rgba(37, 36, 35, 0.507);
+}
+.wrighting{
+    margin: 20px;
+    padding: 15px;
+}
+.wrighting{
+    text-align: center;
+    font-family: inherit;
+    font-size: 28px; 
+}
+.fullname input{
+        margin: 10px;
+        border: 3px solid black;
+        padding: 10px 10px 30px 10px;
+        background-color: aliceblue;
+        width: 400px;
+        border-radius: 30px;
+        font-family: inherit;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+    
+    }
+    .fullname input:hover{
+        border: 2px solid rebeccapurple;
+}
+.email input{
+    margin: 10px;
+    border: 3px solid black;
+    padding: 10px 10px 30px 10px;
+    background-color: aliceblue;
+    width: 400px;
+    border-radius: 30px;
+    font-family: inherit;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer; 
+}
+.email input:hover{
+    border: 2px solid rebeccapurple;
+}
+.subm{
+    margin: 10px;
+    border: none;
+    padding: 10px 10px 30px 10px;
+    background-color: #d79e42;
+    width: 200px;
+    border-radius: 30px;
+    height: 50px;
+    font-family: inherit;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.subm:hover{
+    border: 2px solid rebeccapurple; 
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: #fda085;
+    border-bottom: none;
+    margin-bottom: none;
+    padding-bottom: none;
+    justify-content:space-around;
+
+}
